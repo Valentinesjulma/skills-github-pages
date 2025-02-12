@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Be My Valentine</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #ff9aff, #ffaaff, #ffbaff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Arial', sans-serif;
+      overflow: hidden;
+    }
+
+    .container {
+      text-align: center;
+      color: #fff;
+    }
+
+    .cloud {
+      background: #ffd1f9;
+      border-radius: 50%;
+      padding: 30px 50px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      font-size: 24px;
+      font-weight: bold;
+      margin: 20px auto;
+    }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      background: #ff88cc;
+      border: none;
+      border-radius: 25px;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .button:hover {
+      background: #ff57b2;
+      transform: scale(1.1);
+    }
+
+    .floating {
+      position: absolute;
+      background: #fff;
+      opacity: 0.7;
+      border-radius: 50%;
+      animation: float 6s ease-in-out infinite;
+    }
+
+    .floating-1 {
+      width: 80px;
+      height: 80px;
+      left: 20%;
+      top: 15%;
+    }
+
+    .floating-2 {
+      width: 100px;
+      height: 100px;
+      right: 25%;
+      top: 30%;
+    }
+
+    .floating-3 {
+      width: 60px;
+      height: 60px;
+      left: 35%;
+      bottom: 25%;
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(15px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="cloud">
+      Will you be my Valentine?
+    </div>
+    <div class="buttons">
+
+<a href="YOUTUBE_LINK_HERE" target="_blank" class="button">Yes</a>
+      <a href="YOUTUBE_LINK_HERE" target="_blank" class="button">Yes</a>
+    </div>
+  </div>
+
+  <!-- Floating Decorations -->
+  <div class="floating floating-1"></div>
+  <div class="floating floating-2"></div>
+  <div class="floating floating-3"></div>
+</body>
+</html>
