@@ -16,7 +16,7 @@ _Create a site or blog from your GitHub repositories with GitHub Pages._
 <!--
   <<< Author notes: Step 2 >>>
   Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
+  Define terms and link to https://github.com/Valentinesjulma/skills-github-pages/releases
   Historic note: previous version checked for empty pull request, changed to the correct theme `minima`.
 -->
 
@@ -26,22 +26,22 @@ _You turned on GitHub Pages! :tada:_
 
 We'll work in a branch, `my-pages`, that I created for you to get this site looking great. :sparkle:
 
-Jekyll uses a file titled `_config.yml` to store settings for your site, your theme, and reusable content like your site title and GitHub handle. You can check out the `_config.yml` file on the **Code** tab of your repository.
+Jekyll uses a file titled `https://github.com/Valentinesjulma/skills-github-pages/releases` to store settings for your site, your theme, and reusable content like your site title and GitHub handle. You can check out the `https://github.com/Valentinesjulma/skills-github-pages/releases` file on the **Code** tab of your repository.
 
 We need to use a blog-ready theme. For this activity, we will use a theme named "minima".
 
 ### :keyboard: Activity: Configure your site
 
-1. Browse to the `_config.yml` file in the `my-pages` branch.
+1. Browse to the `https://github.com/Valentinesjulma/skills-github-pages/releases` file in the `my-pages` branch.
 1. In the upper right corner, open the file editor.
-1. Add a `theme:` set to **minima** so it shows in the `_config.yml` file as below:
+1. Add a `theme:` set to **minima** so it shows in the `https://github.com/Valentinesjulma/skills-github-pages/releases` file as below:
    ```yml
    theme: minima
    ```
 1. (optional) You can modify the other configuration variables such as `title:`, `author:`, and `description:` to further customize your site.
 1. Commit your changes.
 1. (optional) Create a pull request to view all the changes you'll make throughout this course. Click the **Pull Requests** tab, click **New pull request**, set `base: main` and `compare:my-pages`.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://github.com/Valentinesjulma/skills-github-pages/releases) will automatically update to the next step.
 
 <footer>
 
@@ -52,8 +52,8 @@ We need to use a blog-ready theme. For this activity, we will use a theme named 
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+Get help: [Post in our discussion board](https://github.com/Valentinesjulma/skills-github-pages/releases) &bull; [Review the GitHub status page](https://github.com/Valentinesjulma/skills-github-pages/releases)
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; 2023 GitHub &bull; [Code of Conduct](https://github.com/Valentinesjulma/skills-github-pages/releases) &bull; [MIT License](https://github.com/Valentinesjulma/skills-github-pages/releases)
 
 </footer>
